@@ -16,6 +16,9 @@
   font-style: normal;
 }
 
+.body {
+  font-family: 'Roboto', sans-serif;
+
 .navigation-link {
   font-family: 'Roboto', sans-serif;
   font-weight: 500;

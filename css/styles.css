@@ -85,6 +85,10 @@
   color: black;
 }
 
+.logo-link-white {
+  /* color: #ffffff; */
+}
+
 .list-about {
   font-family: 'Roboto', sans-serif;
   font-weight: bold;

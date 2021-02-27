@@ -2,6 +2,26 @@
   --main-font: 'Roboto', sans-serif;
   --secondary-font: 'Raleway', sans-serif;
   --accent-color: #2196f3;
+  --navigation-color: #212121;
+  --contact-color: #757575;
+  --modal-btn-color: #ffffff;
+  --modal-btn-background-color: #2196f3;
+  --logo-link-color: #2196f3;
+  --logo-link-black-color: #000000;
+  --logo-link-white-color: #ffffff;
+  --list-section-color: #212121;
+  --list-about-item: #757575;
+  --list-our-work: #212121;
+  --list-team: #212121;
+  --list-team-name: #212121;
+  --list-team-position: #757575;
+  --footer-mail-tel: rgba(255, 255, 255, 0.6);
+  --footer-address: #ffffff;
+  --portfolio-btn: #212121;
+  --portfolio-btn-hover: #ffffff;
+  --portfolio-btn-hover-background: #2196f3;
+  --portfolio-our-project-title: #212121;
+  --portfolio-our-projects: #757575;
 }
 
 .link {
@@ -26,7 +46,7 @@
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: #212121;
+  color: var(--navigation-color);
 }
 
 .navigation-link:hover,
@@ -40,7 +60,7 @@
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: #757575;
+  color: var(--contact-color);
 }
 
 .contact-link:hover,
@@ -58,8 +78,8 @@
   text-align: center;
   letter-spacing: 0.06em;
   cursor: pointer;
-  color: #ffffff;
-  background-color: #2196f3;
+  color: var(--modal-btn-color);
+  background-color: var(--modal-btn-background-color);
 }
 
 .main-title {
@@ -71,6 +91,7 @@
   letter-spacing: 0.06em;
   text-transform: uppercase;
 }
+
 .logo-link {
   font-family: 'Raleway', sans-serif;
   font-style: normal;
@@ -78,15 +99,15 @@
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  color: #2196f3;
+  color: var(--logo-link-color);
 }
 
 .logo-link-black {
-  color: black;
+  color: var(--logo-link-black-color);
 }
 
 .logo-link-white {
-  /* color: #ffffff; */
+  /* color: var(--logo-link-white-color); */
 }
 
 .list-about {
@@ -96,7 +117,7 @@
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #212121;
+  color: var(--list-section-color);
 }
 
 .list-about-item {
@@ -105,7 +126,7 @@
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--list-about-item);
 }
 
 .list-our-work {
@@ -115,7 +136,7 @@
   line-height: 1.16;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #212121;
+  color: var(--list-our-work);
 }
 
 .list-team {
@@ -125,7 +146,7 @@
   line-height: 1.16;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #212121;
+  color: var(--list-team);
 }
 
 .list-team-name {
@@ -135,7 +156,7 @@
   line-height: 1.18;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #212121;
+  color: var(--list-team-name);
 }
 
 .list-team-position {
@@ -145,7 +166,7 @@
   line-height: 1.18;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--list-team-position);
 }
 
 .footer-mail-tel {
@@ -154,7 +175,7 @@
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  /* color: rgba(255, 255, 255, 0.6); */
+  /* color: var(--footer-mail-tel); */
 }
 
 .footer-address {
@@ -163,7 +184,7 @@
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  /* color: #FFFFFF; */
+  /* color: var(--footer-address); */
 }
 
 .portfolio-btn {
@@ -173,14 +194,14 @@
   line-height: 1.62;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #212121;
+  color: var(--portfolio-btn);
   cursor: pointer;
 }
 
 .portfolio-btn:hover,
 .portfolio-btn:focus {
-  color: #ffffff;
-  background-color: #2196f3;
+  color: var(--portfolio-btn-hover);
+  background-color: var(--portfolio-btn-hover-background);
 }
 
 .portfolio-our-project-title {
@@ -189,7 +210,7 @@
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-  color: #212121;
+  color: var(--portfolio-our-project-title);
 }
 
 .portfolio-our-projects {
@@ -198,5 +219,5 @@
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(portfolio-our-projects);
 }

@@ -1,27 +1,15 @@
 :root {
   --main-font: 'Roboto', sans-serif;
   --secondary-font: 'Raleway', sans-serif;
+  --main-color: #212121;
   --accent-color: #2196f3;
-  --navigation-color: #212121;
-  --contact-color: #757575;
-  --modal-btn-color: #ffffff;
-  --modal-btn-background-color: #2196f3;
-  --logo-link-color: #2196f3;
+  --secondary-color: #757575;
+  --background-btn-color: #f5f4fa;
+  --header-background-color: #ffffff;
+  --main-background-color: #e5e5e5;
+  --footer-background-color: #2f303a;
   --logo-link-black-color: #000000;
-  --logo-link-white-color: #ffffff;
-  --list-section-color: #212121;
-  --list-about-item: #757575;
-  --list-our-work: #212121;
-  --list-team: #212121;
-  --list-team-name: #212121;
-  --list-team-position: #757575;
   --footer-mail-tel: rgba(255, 255, 255, 0.6);
-  --footer-address: #ffffff;
-  --portfolio-btn: #212121;
-  --portfolio-btn-hover: #ffffff;
-  --portfolio-btn-hover-background: #2196f3;
-  --portfolio-our-project-title: #212121;
-  --portfolio-our-projects: #757575;
 }
 
 .link {
@@ -40,13 +28,29 @@
   font-family: 'Roboto', sans-serif;
 }
 
+.header {
+  background-color: var(--header-background-color);
+}
+
+.main {
+  background-color: var(--main-background-color);
+}
+
+.hero {
+  background-color: var(--footer-background-color);
+}
+
+.footer {
+  background-color: var(--footer-background-color);
+}
+
 .navigation-link {
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: var(--navigation-color);
+  color: var(--main-color);
 }
 
 .navigation-link:hover,
@@ -60,7 +64,7 @@
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: var(--contact-color);
+  color: var(--secondary-color);
 }
 
 .contact-link:hover,
@@ -78,8 +82,8 @@
   text-align: center;
   letter-spacing: 0.06em;
   cursor: pointer;
-  color: var(--modal-btn-color);
-  background-color: var(--modal-btn-background-color);
+  color: var(--header-background-color);
+  background-color: var(--accent-color);
 }
 
 .main-title {
@@ -90,6 +94,7 @@
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
+  color: var(--header-background-color);
 }
 
 .logo-link {
@@ -99,7 +104,7 @@
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  color: var(--logo-link-color);
+  color: var(--accent-color);
 }
 
 .logo-link-black {
@@ -107,7 +112,7 @@
 }
 
 .logo-link-white {
-  /* color: var(--logo-link-white-color); */
+  color: var(--header-background-color);
 }
 
 .list-about {
@@ -117,7 +122,7 @@
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--list-section-color);
+  color: var(--main-color);
 }
 
 .list-about-item {
@@ -126,7 +131,7 @@
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: var(--list-about-item);
+  color: var(--secondary-color);
 }
 
 .list-our-work {
@@ -136,7 +141,11 @@
   line-height: 1.16;
   text-align: center;
   letter-spacing: 0.03em;
-  color: var(--list-our-work);
+  color: var(--main-color);
+}
+
+.team-section {
+  background-color: var(--background-btn-color);
 }
 
 .list-team {
@@ -146,7 +155,7 @@
   line-height: 1.16;
   text-align: center;
   letter-spacing: 0.03em;
-  color: var(--list-team);
+  color: var(--main-color);
 }
 
 .list-team-name {
@@ -156,7 +165,7 @@
   line-height: 1.18;
   text-align: center;
   letter-spacing: 0.03em;
-  color: var(--list-team-name);
+  color: var(--main-color);
 }
 
 .list-team-position {
@@ -166,7 +175,7 @@
   line-height: 1.18;
   text-align: center;
   letter-spacing: 0.03em;
-  color: var(--list-team-position);
+  color: var(--secondary-color);
 }
 
 .footer-mail-tel {
@@ -175,7 +184,7 @@
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  /* color: var(--footer-mail-tel); */
+  color: var(--footer-mail-tel);
 }
 
 .footer-address {
@@ -184,7 +193,7 @@
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  /* color: var(--footer-address); */
+  color: var(--header-background-color);
 }
 
 .portfolio-btn {
@@ -194,14 +203,15 @@
   line-height: 1.62;
   text-align: center;
   letter-spacing: 0.03em;
-  color: var(--portfolio-btn);
+  color: var(--main-color);
   cursor: pointer;
+  background-color: var(--background-btn-color);
 }
 
 .portfolio-btn:hover,
 .portfolio-btn:focus {
-  color: var(--portfolio-btn-hover);
-  background-color: var(--portfolio-btn-hover-background);
+  color: var(--header-background-color);
+  background-color: var(--accent-color);
 }
 
 .portfolio-our-project-title {
@@ -210,7 +220,7 @@
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-  color: var(--portfolio-our-project-title);
+  color: var(--main-color);
 }
 
 .portfolio-our-projects {
@@ -219,5 +229,5 @@
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
-  color: var(portfolio-our-projects);
+  color: var(--secondary-color);
 }

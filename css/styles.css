@@ -6,7 +6,6 @@
   --secondary-color: #757575;
   --background-btn-color: #f5f4fa;
   --header-background-color: #ffffff;
-  --main-background-color: #e5e5e5;
   --footer-background-color: #2f303a;
   --logo-link-black-color: #000000;
   --footer-mail-tel: rgba(255, 255, 255, 0.6);
@@ -24,16 +23,20 @@
   font-style: normal;
 }
 
+.index {
+  color: var(--accent-color);
+}
+
+.portfolio {
+  color: var(--accent-color);
+}
+
 .body {
   font-family: 'Roboto', sans-serif;
 }
 
 .header {
   background-color: var(--header-background-color);
-}
-
-.main {
-  background-color: var(--main-background-color);
 }
 
 .hero {
@@ -45,12 +48,10 @@
 }
 
 .navigation-link {
-  font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: var(--main-color);
 }
 
 .navigation-link:hover,
@@ -59,7 +60,6 @@
 }
 
 .contact-link {
-  font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -73,7 +73,6 @@
 }
 
 .modal-btn {
-  font-family: 'Roboto', sans-serif;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
@@ -87,7 +86,6 @@
 }
 
 .main-title {
-  font-family: 'Roboto', sans-serif;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.5;
@@ -100,7 +98,7 @@
 .logo-link {
   font-family: 'Raleway', sans-serif;
   font-style: normal;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
@@ -116,8 +114,7 @@
 }
 
 .list-about {
-  font-family: 'Roboto', sans-serif;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
@@ -126,8 +123,7 @@
 }
 
 .list-about-item {
-  font-family: 'Roboto', sans-serif;
-  font-weight: normal;
+  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -135,8 +131,7 @@
 }
 
 .list-our-work {
-  font-family: 'Roboto', sans-serif;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
@@ -149,8 +144,7 @@
 }
 
 .list-team {
-  font-family: 'Roboto', sans-serif;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
@@ -159,7 +153,6 @@
 }
 
 .list-team-name {
-  font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
@@ -169,8 +162,7 @@
 }
 
 .list-team-position {
-  font-family: 'Roboto', sans-serif;
-  font-weight: normal;
+  font-weight: 400;
   font-size: 16px;
   line-height: 1.18;
   text-align: center;
@@ -179,8 +171,7 @@
 }
 
 .footer-mail-tel {
-  font-family: 'Roboto', sans-serif;
-  font-weight: normal;
+  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -188,8 +179,7 @@
 }
 
 .footer-address {
-  font-family: 'Roboto', sans-serif;
-  font-weight: normal;
+  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -197,7 +187,6 @@
 }
 
 .portfolio-btn {
-  font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
@@ -215,8 +204,7 @@
 }
 
 .portfolio-our-project-title {
-  font-family: 'Roboto', sans-serif;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
@@ -224,8 +212,7 @@
 }
 
 .portfolio-our-projects {
-  font-family: 'Roboto', sans-serif;
-  font-weight: normal;
+  font-weight: 400;
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;

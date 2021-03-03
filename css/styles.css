@@ -1,3 +1,5 @@
+/* =================HTML================= */
+
 :root {
   --main-font: 'Roboto', sans-serif;
   --secondary-font: 'Raleway', sans-serif;
@@ -19,6 +21,18 @@
   list-style: none;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol {
+  margin: 0px;
+}
+
 .address {
   font-style: normal;
 }
@@ -27,16 +41,10 @@
   font-family: 'Roboto', sans-serif;
 }
 
+/* ============HEADER========== */
+
 .header {
   background-color: var(--header-background-color);
-}
-
-.hero {
-  background-color: var(--footer-background-color);
-}
-
-.footer {
-  background-color: var(--footer-background-color);
 }
 
 .navigation-link {
@@ -45,14 +53,6 @@
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--main-color);
-}
-
-.index {
-  color: var(--accent-color);
-}
-
-.portfolio {
-  color: var(--accent-color);
 }
 
 .navigation-link:hover,
@@ -73,29 +73,6 @@
   color: var(--accent-color);
 }
 
-.modal-btn {
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.87;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  letter-spacing: 0.06em;
-  cursor: pointer;
-  color: var(--header-background-color);
-  background-color: var(--accent-color);
-}
-
-.main-title {
-  font-weight: 900;
-  font-size: 44px;
-  line-height: 1.5;
-  text-align: center;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-  color: var(--header-background-color);
-}
-
 .logo-link {
   font-family: 'Raleway', sans-serif;
   font-style: normal;
@@ -110,9 +87,43 @@
   color: var(--logo-link-black-color);
 }
 
-.logo-link-white {
+/* ============MAIN-INDEX========== */
+
+.index {
+  color: var(--accent-color);
+}
+
+/* ============HERO========== */
+
+.hero {
+  background-color: var(--footer-background-color);
+}
+
+.main-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
   color: var(--header-background-color);
 }
+
+.modal-btn {
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  cursor: pointer;
+  color: var(--header-background-color);
+  background-color: var(--accent-color);
+}
+
+/* ============ABOUT========== */
 
 .list-about {
   font-weight: 700;
@@ -131,6 +142,8 @@
   color: var(--secondary-color);
 }
 
+/* ============OUR-WORK========== */
+
 .list-our-work {
   font-weight: 700;
   font-size: 36px;
@@ -139,6 +152,8 @@
   letter-spacing: 0.03em;
   color: var(--main-color);
 }
+
+/* ============TEAM========== */
 
 .team-section {
   background-color: var(--background-btn-color);
@@ -171,23 +186,27 @@
   color: var(--secondary-color);
 }
 
-.footer-mail-tel {
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
-  color: var(--footer-mail-tel);
+/* =================PORTFOLIO================= */
+
+.portfolio {
+  color: var(--accent-color);
 }
 
-.footer-address {
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
-  color: var(--header-background-color);
+/* =================MAIN-PORTFOLIO================= */
+
+.visually-hidden {
+  position: absolute !important;
+  clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 0 !important;
+  border: 0 !important;
+  height: 1px !important;
+  width: 1px !important;
+  overflow: hidden;
 }
 
 .portfolio-btn {
+  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
@@ -218,4 +237,30 @@
   line-height: 1.87;
   letter-spacing: 0.03em;
   color: var(--secondary-color);
+}
+
+/* =================FOOTER================= */
+
+.footer {
+  background-color: var(--footer-background-color);
+}
+
+.footer-address {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--header-background-color);
+}
+
+.footer-mail-tel {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--footer-mail-tel);
+}
+
+.logo-link-white {
+  color: var(--header-background-color);
 }
